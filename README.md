@@ -1,5 +1,5 @@
 ### Hi there 👋
 
 - typescript
-- vue
-- node / deno
+- vue3
+- node & deno
