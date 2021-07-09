@@ -16,15 +16,16 @@ export const defineFunctionComponent = <
   P extends {},
   I extends { render: () => VNode }
 >(
-  componnent: (props: P, ctx: SetupContext) => any,
-  option?: { name: string }
+  component: (props: P, ctx: SetupContext) => I,
+  option?: { name: string; inheritAttrs: boolean }
 ) => {
-  const comName = option?.name || componnent.name || "Anonymous Component";
+  const comName = option?.name || component.name || "Anonymous Component";
 
   const OptionCom = defineComponent({
     name: comName,
+    inheritAttrs: option?.inheritAttrs ?? true,
     setup(_, ctx) {
-      return componnent(ctx.attrs as P, ctx);
+      return component(ctx.attrs as P, ctx);
     },
     render(ctx: { render: () => VNode }) {
       return ctx.render();
@@ -48,5 +49,4 @@ export const defineFunctionComponent = <
 
   return com;
 };
-
 ```
