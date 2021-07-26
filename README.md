@@ -10,7 +10,7 @@
 works well with `composition-api` ღ( ´･ᴗ･` ) 💖
 
 ```ts
-import { SetupContext, defineComponent, h, VNode, onUpdated, shallowReactive } from 'vue'
+import { SetupContext, defineComponent, h, VNode, onBeforeUpdate, shallowReactive } from 'vue'
 /**
  * defineFunctionComponent
  * @author 臭哥哥·湫曗
@@ -50,7 +50,7 @@ export const defineFunctionComponent = <
 
       updateProps()
 
-      onUpdated(() => {
+      onBeforeUpdate(() => {
         updateProps()
       })
 
@@ -78,5 +78,4 @@ export const defineFunctionComponent = <
 
   return com
 }
-
 ```
