@@ -8,9 +8,7 @@
 
 ### ✨ 在 vue3 中获得 `完整的类型推导` 和 `函数式组件的便捷` 并且不损失 `选项式组件的生命周期`✨
 
-**工厂函数组件**
-
-works well with `composition-api` ღ( ´･ᴗ･` ) 💖
+**工厂函数组件**，works well with `composition-api` ღ( ´･ᴗ･` ) 💖
 
 ```ts
 import { SetupContext, defineComponent, h, VNode, onBeforeUpdate, shallowReactive } from 'vue'
