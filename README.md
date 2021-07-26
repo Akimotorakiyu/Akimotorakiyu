@@ -15,8 +15,8 @@ import { SetupContext, defineComponent, h, VNode, onBeforeUpdate, shallowReactiv
 /**
  * defineFunctionComponent
  * @author 臭哥哥·湫曗
- * @param component
- * @param option
+ * @param component 工厂函数
+ * @param option 选项
  * @returns
  */
 export const defineFunctionComponent = <
