@@ -1,9 +1,10 @@
 ### Hi there 👋
 
-- typescript
-- vue3 & level3 editor & react on the way
+- typescript & HTML & CSS
+- vue 2/3
 - node & deno
 
+18817832003@qq.com
 
 ### ✨ 在 vue3 中获得 `完整的类型推导` 和 `函数式组件的便捷` 并且不损失 `选项式组件的生命周期`✨
 
