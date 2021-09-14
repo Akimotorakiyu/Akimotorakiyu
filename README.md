@@ -82,7 +82,7 @@ export const defineFunctionComponent = <
     },
   });
 
-  const funtionCom = {
+  const functionCom = {
     [comName]: (props: P) => {
       const instance = h(OptionCom, props);
       return instance as unknown as I;
