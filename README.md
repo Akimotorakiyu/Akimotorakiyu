@@ -2,4 +2,4 @@
 
 - Typescript
 - Vue 2/3
-- Shrio [repo](https://github.com/Akimotorakiyu/shrio) [website](https://clever-rosalind-9cee08.netlify.app/)
+- Glitter: [repo](https://github.com/Akimotorakiyu/glitter) [website](https://clever-rosalind-9cee08.netlify.app/)
