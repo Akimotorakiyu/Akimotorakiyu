@@ -1,6 +1,6 @@
-### 👋 Hi there
+# Hello.
 
-I'm the creator of Glitter.
+### I'm the creator of Glitter.
 
 - Typescript
 - Vue 2/3
